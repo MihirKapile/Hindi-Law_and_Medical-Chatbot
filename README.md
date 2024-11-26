@@ -2,14 +2,15 @@
 
 ## Project Overview
 
-This project is a **Hindi chatbot** designed to provide expert assistance in the domains of **Law** and **Medicine**. It employs a **basic Ollama LLM** as the central orchestrator, while two fine-tuned Ollama models (specialized using **LoRA**) act as **AI Agents**. These agents are trained on the **OpenAI MMMLU Hindi datasets** for Law and Medicine, ensuring accurate, domain-specific responses. The chatbot utilizes the **Ollama framework**, enabling seamless interaction between the basic LLM and the specialized agents.
+This project introduces a Hindi chatbot designed to assist users with Law and Medical queries. The system employs an Ollama LLM as the primary conversational interface and integrates two domain-specialized AI Agents, fine-tuned using LoRA (Low-Rank Adaptation). These agents, trained on OpenAI MMMLU Hindi datasets for Law and Medicine, provide precise and context-aware answers in their respective fields.
+The chatbot seamlessly combines the versatility of the base Ollama LLM with the specialized knowledge of the fine-tuned agents, creating a robust, interactive solution for Hindi-speaking users.
 
 ---
 
 ## Features
 
 - **Central LLM Orchestration**  
-  A basic Ollama LLM acts as the primary LLM, dynamically routing queries to specialized agents.
+  A llama-3.2-90b-vision-preview LLM acts as the primary LLM, dynamically routing queries to specialized agents.
 
 - **Domain-Specific Expertise**  
   Separate fine-tuned agents for:
@@ -21,9 +22,6 @@ This project is a **Hindi chatbot** designed to provide expert assistance in the
 
 - **Hindi Language Support**  
   Entirely designed for native Hindi speakers, ensuring accessibility to legal and medical knowledge.
-
-- **Interactive Chatbot**  
-  Smooth integration of AI Agents through Ollama's framework for natural, responsive conversation.
 
 ---
 
