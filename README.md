@@ -9,7 +9,7 @@ This project is a **Hindi chatbot** designed to provide expert assistance in the
 ## Features
 
 - **Central LLM Orchestration**  
-  A basic Ollama LLM acts as the primary interface, dynamically routing queries to specialized agents.
+  A basic Ollama LLM acts as the primary LLM, dynamically routing queries to specialized agents.
 
 - **Domain-Specific Expertise**  
   Separate fine-tuned agents for:
